@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: antiquewhite; */
+    font-size: 5px;
+}
+
+body {
+    padding: 3px;
+    background-color: white;
+    width: 100%;
+}
+
+table {
+    margin-left: 5px;
+}
+
+th, td {
+    text-align: left;
+    display: ;
+}
+
+h2 {
+    border: none;
+    border-bottom: 0.5px solid black;
+    /* Gạch chân đen */
+    outline: none;
+    /* Loại bỏ đường viền xung quanh trường nhập liệu */
+}
+
+.radio-button {
+    height: 4px;
+    width: 10px;
+
+}
+input[type="text"] {
+    width: 200px;
+    height: 9px;
+    border: 0.5px solid gray;
+    border-radius: 1px;   
+}
+input[type="datetime"] {
+    width: 200px;
+    height: 9px;
+    border: 0.5px solid gray;
+    border-radius: 1px;   
+}
+input[type="email"] {
+    width: 200px;
+    height: 9px;
+    border: 0.5px solid gray;
+    border-radius: 1px;  
+}
+input[type="tel"] {
+    width: 200px;
+    height: 9px;
+    border: 0.5px solid gray;
+    border-radius: 1px;  
+}
+main  td {
+    padding-left: 10px;
+}
+i {
+    font-size: 5px;
+    margin-left: 3px;
+    margin-top: 4px;
+    
+}
+footer td{
+    padding-left: 10px;
+}
+textarea{
+    margin-left: 3px;
+    border: 0.5px solid gray;
+    background-color: whitesmoke;
+}
+.leha {
+    width: 210px;
+    height: 81px;
+    
+    margin-left: 23px;
+    border: 0.25px solid gray;
+}
+.check-box {
+    height: 4px;
+    width: 10px;
+}
+/* input[type="checkbox"] {
+    width: 5px;
+    height: auto;
+} */
+.leha1{
+    height: 4px;
+    width: 10px;
+    margin: 1px;
+
+}
+.leha2 {
+    height: 4px;
+    width: 10px;
+}
+.leha3{
+    margin-left: 85px;
+}
+.leha4{
+    font-size: 14px;
+    font-weight: bold; /* Đậm */
+    color: transparent; /* Văn bản trong suốt */
+    background: linear-gradient(0deg, black 65%, transparent 50%);
+    background-size: 1px 1px; /* Kích thước của mỗi nét */
+    -webkit-background-clip: text; Chỉ lấy phần nền bên trong chữ
+    background-clip: text; /* Chỉ lấy phần nền bên trong chữ */;
+}
+.leha5{
+    margin: 5px;
+}
+ input[type="submit"] {
+    color: white;
+    background-color: gray;
+    border: 2px solid gray;
+    font-size: 3px;
+    margin-left: 242px;  
+}
+p, input[type="submit"] input[type="button"]{
+    display: inline-block;
+}
+input[type="button"] {
+    color: white;
+    background-color: gray;
+    border: 2px solid gray;
+    font-size: 3px;
+}
