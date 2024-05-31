@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+
+h1{
+    color: rgb(196, 30, 30);
+    border-left: 4px solid transparent;
+    border-color: rgb(196, 30, 30);
+    
+    
+    
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+i {
+    color: rgb(196, 30, 30);
+}
+ul {
+    list-style-type: none; /* Loại bỏ dấu chấm tròn */
+    padding-left: 0; /* Loại bỏ padding mặc định */
+}
+ul li {
+    margin-bottom: 10px; 
+}
+
+.anh1 {
+    flex: 1 1 calc(30% - 20px); /* Co giãn và chiếm khoảng 1/3 container, trừ đi khoảng cách */
+    margin: 10px;
+}
+.anh1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.halevan{
+    padding-top: 5px;
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
